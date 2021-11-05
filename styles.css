@@ -76,6 +76,8 @@ span {
   width: 100%;
   height: 100%;
   background-color: rgba(170, 92, 219, 0.45);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 
 .card__img > img {
@@ -174,6 +176,12 @@ span {
   .card__img > img {
     flex: 1;
     border-bottom-right-radius: 10px;
+    border-top-left-radius: 0px;
+  }
+
+  .img__overlay {
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
     border-top-left-radius: 0px;
   }
 
